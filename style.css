@@ -184,7 +184,11 @@ h1{
     flex-direction: column;
 }
 @media screen  and (max-width:600px){
-   .d1 h1{
+    .d1{
+        width: 100%;
+    }
+  
+    .d1 h1{
     font-size:50px ;
    }
    .navbar a{
@@ -197,16 +201,16 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    padding-bottom: 40px;
    }
    .d2 img{
     border-radius: 30px;
     height: 200px;
    }
 
-   .d2 p{
+   .d2 p,b{
     font-size:14px;
     width: 400px;
+    padding: 20px;
    }
    .d3,.d4,.d5{
     display: inline-flex;
@@ -222,11 +226,11 @@ h1{
     padding:20px
    }
    .box{
-    width: 400px; 
+    width: 300px; 
     border-radius: 20px;
    }
    .input{
-    width: 300px;
+    width: 250px;
 
    }
  
@@ -244,8 +248,5 @@ h1{
     justify-content: center;
     gap: 10px;
    }
-
-
-
-
+   
 }
