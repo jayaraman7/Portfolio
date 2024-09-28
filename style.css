@@ -205,6 +205,9 @@ h1{
     align-items: center;
     font-size: 18px;
    }
+   .s2{
+    height: 500px;
+   }
    .d2 img{
     border-radius: 30px;
     height: 200px;
@@ -213,7 +216,8 @@ h1{
    .d2 p,b{
     font-size:14px;
     width: 400px;
-    padding: 20px;
+    padding: 30px;
+    
    }
    .d3,.d4,.d5{
     display: inline-flex;
@@ -223,7 +227,6 @@ h1{
     font-size: 18px;
     padding-bottom: 40px;
     gap: 20px;
-
    }
    .d4{
     padding:20px
@@ -243,12 +246,14 @@ h1{
     padding: 20px 20px 20px 20px;
    }
    .s6{
-    height: 810px;
+    height: auto;
+    
    }
    .gg{
     display: flex;
     justify-content: center;
     gap: 10px;
    }
+   
 
 }
